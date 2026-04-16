@@ -82,7 +82,7 @@ export default function ProfileScreen() {
     const profileData: Profile = { name, email, location, preferences };
 
     try {
-      const BASE_URL = 'http://168.122.130.102:5000';
+      const BASE_URL = 'http://168.122.130.102:5000'; //your ip
 
       const url = profileId
         ? `${BASE_URL}/api/profile/${profileId}`
